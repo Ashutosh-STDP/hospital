@@ -900,7 +900,7 @@ footer {
     width: 40%;
   }
   .hero-stats div span {
-    gap: 11px;
+    font-size: 11px;
   }
   .burger {
     display: block
