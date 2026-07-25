@@ -899,7 +899,10 @@ footer {
     align-items: center;
     width: 40%;
   }
-
+  .hero-stats {
+  gap: 20px;
+ 
+}
   .burger {
     display: block
   }
