@@ -899,8 +899,15 @@ footer {
     align-items: center;
     width: 40%;
   }
-  .hero-stats div span {
-    font-size: 11px;
+  .hero-stats{
+    gap: 17px;
+  }
+
+  .hero-stats div strong{
+    font-size: 18px;
+  }
+  .hero-stats div span{
+    font-size: 13px;
   }
   .burger {
     display: block
