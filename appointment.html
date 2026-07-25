@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Book Appointment — Rahul Hospital</title>
+<meta name="description" content="Book your appointment with a Rahul Hospital specialist in under 60 seconds."/>
+<link rel="icon" href="images/logo.png"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body data-page="appointment">
+<div id="site-header"></div>
+
+<section class="block">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Appointment</div>
+      <h2>Book your visit</h2>
+      <p>Fill in a few details and we'll confirm your slot shortly.</p>
+    </div>
+    <div class="form-wrap reveal">
+      <form data-form="appointment" novalidate>
+        <div class="alert ok"></div><div class="alert err"></div>
+        <div class="form-row">
+          <div class="field"><label>Full Name</label><input name="name" required placeholder="Your name"/></div>
+          <div class="field"><label>Phone</label><input name="phone" required placeholder="+91 …"/></div>
+        </div>
+        <div class="field"><label>Email</label><input type="email" name="email" required placeholder="you@example.com"/></div>
+        <div class="form-row">
+          <div class="field"><label>Department</label>
+            <select name="department" required>
+              <option value="">Select…</option>
+              <option>Cardiology</option><option>Neurology</option><option>Orthopedics</option>
+              <option>Pediatrics</option><option>Gynecology</option><option>General Medicine</option>
+              <option>Oncology</option><option>Ophthalmology</option><option>Dental</option>
+            </select></div>
+          <div class="field"><label>Preferred Doctor</label>
+            <select name="doctor">
+              <option value="">Any available</option>
+              <option>Dr. Rahul Verma</option><option>Dr. Neha Kapoor</option>
+              <option>Dr. Sameer Iyer</option><option>Dr. Priya Menon</option>
+              <option>Dr. Arjun Singh</option><option>Dr. Anita Rao</option>
+            </select></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Date</label><input type="date" name="date" required/></div>
+          <div class="field"><label>Time</label><input type="time" name="time" required/></div>
+        </div>
+        <div class="field"><label>Reason (optional)</label><textarea name="reason" placeholder="Briefly describe your symptoms or reason for visit"></textarea></div>
+        <button class="btn btn-primary" style="width:100%">Confirm Appointment →</button>
+        <p class="form-note">By booking you agree to our terms. Emergency? <a href="tel:+911800123456">Call +91 1800-123-456</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="js/script.js"></script>
+</body></html>
