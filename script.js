@@ -51,7 +51,7 @@
           <h5>Reach Us</h5>
           <a href="tel:+911800123456">📞 +91 1800-123-456</a>
           <a href="mailto:care@rahulhospital.com">✉️ care@rahulhospital.com</a>
-          <a>📍 Sector 21, New Delhi</a>
+          <a>📍 Ghazipur Tiraha, Mau (Uttar Pradesh)</a>
         </div>
       </div>
       <div class="copy">© ${new Date().getFullYear()} Rahul Hospital. All rights reserved. Built with care.</div>
